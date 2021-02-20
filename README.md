@@ -15,4 +15,4 @@ This project was developed with the following:
     (Previously AWS)
 
 ## Website Link
-https://www.pauljmello.dev/
+https://www.pauljmello.dev
