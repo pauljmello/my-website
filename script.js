@@ -38,7 +38,8 @@ $(document).ready(function () {
     }
 
     $('#carousel div').click(function() {
-        if (this.classList.contains("project-info") || this.classList.contains("project-code") || this.classList.contains("project-name") || this.classList.contains("project-description")) {
+        if (this.classList.contains("project-info") || this.classList.contains("project-code") || this.classList.contains("project-name") ||
+            this.classList.contains("project-description") || this.classList.contains("project-link-website") || this.classList.contains("project-link-git")) {
 
         } else {
             moveToSelected($(this));
