@@ -124,20 +124,19 @@ footer {
 }
 
 .home h1 {
-	font-size: 3.4em;
-	letter-spacing: 0.08em;
+	font-size: 3.5em;
+	letter-spacing: 0.06em;
 	color: white;
 	line-height: 1.5em;
 }
 
 .home h2 {
-	font-size: 1.9em;
-	letter-spacing: 0.1em;
+	font-size: 1.71em;
+	letter-spacing: 0.05em;
 	color: white;
 	line-height: 1.7em;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 400;
-	text-transform: uppercase;
 }
 
 .home .line {
@@ -180,9 +179,10 @@ footer {
 /* About Me Section */
 
 .about {
-	box-shadow: 0px -10px 20px -10px rgb(35, 35, 35) inset;
-	-webkit-box-shadow: 0px -10px 20px -10px rgb(35, 35, 35) inset;
-	-moz-box-shadow: 0px -10px 20px -10px rgb(35, 35, 35) inset;
+	box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
+	-webkit-box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
+	-moz-box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
+
 	background-color: #f9f9f9;
 	margin: 0 auto;
 	padding: 60px 0px;
@@ -239,14 +239,108 @@ footer {
 	font-size: 16px;
 }
 
-/* Skills Section */
+/* Education Section */
 
-.skills {
+.education {
 	box-shadow: 0px 15px 40px -10px rgb(35, 35, 35);
 	-webkit-box-shadow: 0px 15px 40px -10px rgb(35, 35, 35);
 	-moz-box-shadow: 0px 15px 40px -10px rgb(35, 35, 35);
-	background-color: #efebe8;
-	padding: 60px 0px 55px 0px;
+	background-color: #f9f9f9;
+	margin: 0 auto;
+	padding: 60px 0px;
+}
+
+.education .line {
+	background-color: #d2d8d9;
+}
+
+.education-content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.school-pic {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.education .row-pic {
+	padding-top: 55px;
+	padding-left: 50px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.education .row-text {
+	width: 75%;
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.education-content h1 {
+	font-size: 1.4em;
+	color: black;
+	letter-spacing: 0.06em;
+	padding: 10px 0px;
+}
+
+.education-content h3 {
+	font-size: 2em;
+	color: black;
+	letter-spacing: 0.01em;
+}
+
+.education-content h4 {
+	font-size: 1.4em;
+	color: black;
+	padding-top: 10px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+.education-content h5 {
+	font-size: 1.2em;
+	color: black;
+	padding-top: 2px;
+	letter-spacing: 0.01em;
+}
+
+.education-content h6 {
+	font-size: 1.2em;
+	color: black;
+	padding-top: 2px;
+	padding-bottom: 12px;
+	letter-spacing: 0.01em;
+}
+
+.text-container {
+	padding: 0px 0px 60px 50px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.education-text-sac {
+	padding-top: 10px;
+}
+
+.education-text-sj {
+	padding-top: 32px;
+}
+
+/* Skills Section */
+
+.skills {
+	box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
+	-webkit-box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
+	-moz-box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
+	margin: 0 auto;
+	padding: 60px 0px;
 }
 
 .skills .line {
@@ -335,11 +429,8 @@ footer {
 /* Projects Section */
 
 .projects {
-	box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
-	-webkit-box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
-	-moz-box-shadow: 0px -15px 20px -10px rgb(35, 35, 35) inset;
-	margin: 0 auto;
-	padding: 60px 0px;
+	background-color: #efebe8;
+	padding: 60px 0px 55px 0px;
 }
 
 .projects .line {
