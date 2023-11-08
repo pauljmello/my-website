@@ -10,7 +10,6 @@ This project was developed with the following:
 ## Technologies
 * Jira - For bug tracking and work flow managment
 * Visual Studio Code
-* Zapier - For Email Automation
 * Netlify - For hosting services
     (Previously AWS)
 
